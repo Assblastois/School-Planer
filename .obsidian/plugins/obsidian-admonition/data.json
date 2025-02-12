@@ -1,0 +1,38 @@
+{
+  "userAdmonitions": {
+    "Test": {
+      "type": "Test",
+      "color": "255, 213, 0",
+      "icon": {
+        "name": "lucide-sparkles",
+        "type": "obsidian"
+      },
+      "command": false,
+      "title": "Test",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    }
+  },
+  "syntaxHighlight": false,
+  "copyButton": false,
+  "version": "10.3.2",
+  "autoCollapse": false,
+  "defaultCollapseType": "open",
+  "injectColor": true,
+  "parseTitles": true,
+  "dropShadow": true,
+  "hideEmpty": false,
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": false
+  },
+  "icons": [],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": false,
+  "msDocConverted": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.f7f983"
+}

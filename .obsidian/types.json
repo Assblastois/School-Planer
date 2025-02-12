@@ -1,0 +1,16 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Offen": "checkbox",
+    "sadf": "checkbox",
+    "Abgeschlossen": "checkbox",
+    "Abgabedatum": "date",
+    "health": "text",
+    "Abschlussdatum": "datetime",
+    "Schlussnote": "number",
+    "Semester": "number",
+    "Jahr": "number"
+  }
+}

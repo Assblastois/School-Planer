@@ -1,0 +1,24 @@
+{
+  "Fächer/Mathe/Mathe.md": {
+    "5c22cd81a7e9650cf8b19d7b1122544a": {
+      "position": "center",
+      "width": "268px",
+      "height": "15px",
+      "wrap": false
+    },
+    "3c79d072547808927b422a4f2b4a857a": {
+      "position": "center",
+      "width": "432px",
+      "height": "93px",
+      "wrap": false
+    }
+  },
+  "Templates/Fachname.md": {
+    "388911d9523ab4953863201266570558": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  }
+}

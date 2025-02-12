@@ -1,0 +1,13 @@
+{
+  "cssTheme": "Typewriter",
+  "theme": "obsidian",
+  "accentColor": "#568dc8",
+  "enabledCssSnippets": [
+    "linelength",
+    "button_2",
+    "toolbarstyle",
+    "cards",
+    "Cards (1)",
+    "Cards"
+  ]
+}

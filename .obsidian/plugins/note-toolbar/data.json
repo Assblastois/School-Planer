@@ -1,0 +1,242 @@
+{
+  "emptyViewToolbar": null,
+  "export": {
+    "includeIcons": true,
+    "replaceVars": true,
+    "useDataEls": true,
+    "useIds": true
+  },
+  "folderMappings": [
+    {
+      "folder": "*",
+      "toolbar": "d6062f96-8490-4a80-aa7a-13f0d60f6496"
+    }
+  ],
+  "icon": "circle-ellipsis",
+  "ribbonAction": "toolbar",
+  "scriptingEnabled": false,
+  "showEditInFabMenu": false,
+  "showToolbarInFileMenu": false,
+  "toolbarProp": "notetoolbar",
+  "toolbars": [
+    {
+      "uuid": "263e0c8b-7f11-480b-9778-59c90a44245b",
+      "customClasses": "1 2",
+      "defaultStyles": [
+        "border",
+        "even",
+        "sticky",
+        "center"
+      ],
+      "hasCommand": false,
+      "items": [
+        {
+          "uuid": "620849a9-0834-44a8-a2f4-f2c3aa0cc08e",
+          "label": "Hausaufgaben",
+          "icon": "",
+          "link": "QuickAdd: Hausaufgaben",
+          "linkAttr": {
+            "commandId": "quickadd:choice:49fca90c-33a5-4bf8-b042-50c3adea1d55",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "9ba569b0-fa18-4059-ae34-4b47ad2a580f",
+          "label": "",
+          "icon": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "4186eba8-4654-408c-b8c5-e06b1b8b9e73",
+          "label": "Wissen",
+          "icon": "",
+          "link": "QuickAdd: Wissen",
+          "linkAttr": {
+            "commandId": "quickadd:choice:d5fa3d18-639c-4a5e-91b1-373cf35d0946",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "Fach",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2025-02-10T13:32:24.215Z"
+    },
+    {
+      "uuid": "c8c9f366-cce1-46c5-b6f5-9b1792b731b6",
+      "customClasses": "",
+      "defaultStyles": [
+        "border",
+        "even",
+        "sticky"
+      ],
+      "hasCommand": false,
+      "items": [
+        {
+          "uuid": "0a39d1af-0c41-4e7a-bab0-e550a7eb59a6",
+          "label": "Neues Fach",
+          "icon": "",
+          "link": "QuickAdd: Neues Fach",
+          "linkAttr": {
+            "commandId": "quickadd:choice:e93a3890-fb46-447b-a4da-07407cfd79dd",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "Neues Fach Hinzufügen",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2025-02-12T08:03:31.545Z"
+    }
+  ],
+  "version": 20240727.1,
+  "whatsnew_version": 1.18
+}

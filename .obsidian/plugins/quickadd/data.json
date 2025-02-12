@@ -1,0 +1,447 @@
+{
+  "choices": [
+    {
+      "id": "49fca90c-33a5-4bf8-b042-50c3adea1d55",
+      "name": "Hausaufgaben",
+      "type": "Macro",
+      "command": true,
+      "macroId": "5e7af138-8260-47f9-b89f-0406dc44d1ce"
+    },
+    {
+      "id": "d5fa3d18-639c-4a5e-91b1-373cf35d0946",
+      "name": "Wissen",
+      "type": "Macro",
+      "command": true,
+      "macroId": "352095c8-1f65-4521-9ea3-9ed94120f604"
+    },
+    {
+      "id": "e93a3890-fb46-447b-a4da-07407cfd79dd",
+      "name": "Neues Fach",
+      "type": "Macro",
+      "command": true,
+      "macroId": "144ebcb3-f45c-478d-a045-eeff9c363c10"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Hausaufgaben",
+      "id": "5e7af138-8260-47f9-b89f-0406dc44d1ce",
+      "commands": [
+        {
+          "name": "Call Hausaufgaben Template",
+          "type": "NestedChoice",
+          "id": "0446ff8e-b761-4b2c-b211-c585c7d98021",
+          "choice": {
+            "id": "f6b7204a-a497-4eb7-941e-db5666c4799d",
+            "name": "Call Hausaufgaben Template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/Hausaufgaben.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{date}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": true,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Nothing",
+            "setFileExistsBehavior": true
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "09fb5de7-0d49-4126-a6a8-0d069716ddbb",
+          "time": 100
+        },
+        {
+          "name": "Mover",
+          "type": "NestedChoice",
+          "id": "6d6a0691-6e57-463f-82f8-962ea80043e0",
+          "choice": {
+            "id": "807fc6f4-64e2-46a8-858c-8bb4a3c0c4fd",
+            "name": "Mover",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "<%* const Fachname = tp.file.folder() %>\n\n<% await tp.file.move(\"/Fächer/\" + Fachname + \"/Hausaufgaben/\" + tp.file.title) %>"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": true,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Wissen",
+      "id": "352095c8-1f65-4521-9ea3-9ed94120f604",
+      "commands": [
+        {
+          "name": "Call Wissen Template",
+          "type": "NestedChoice",
+          "id": "29dd6938-cf87-4839-9e5d-6d498bf2b4b5",
+          "choice": {
+            "id": "d586156c-9e86-4d16-be96-a9e5674c674d",
+            "name": "Call Wissen Template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/Wissensnote.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{value}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": true,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Nothing",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "154f3f8c-eb15-4d9f-96ea-41add4e7ddf6",
+          "time": 100
+        },
+        {
+          "name": "Mover",
+          "type": "NestedChoice",
+          "id": "d0d99280-a0b8-405f-984f-753c8a8a3856",
+          "choice": {
+            "id": "272fd21a-e8a0-482f-abe7-c92fb74b41a3",
+            "name": "Mover",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "<%* const Fachname = tp.file.folder() %>\n\n<% await tp.file.move(\"/Fächer/\" + Fachname + \"/Wissen/\" + tp.file.title) %>"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": true,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Neues Fach",
+      "id": "144ebcb3-f45c-478d-a045-eeff9c363c10",
+      "commands": [
+        {
+          "name": "Name des Faches",
+          "type": "NestedChoice",
+          "id": "c401521e-336b-4751-ad92-57e07de8f8ea",
+          "choice": {
+            "id": "a19adc1c-6100-4347-bd60-1527266de8c8",
+            "name": "Name des Faches",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/Fachname.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{value}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": true,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "0f0999f7-128d-4351-9f06-c40553a7326e",
+          "time": 100
+        },
+        {
+          "name": "Templater: Replace templates in the active file",
+          "type": "Obsidian",
+          "id": "9bb8b02d-f232-4af0-b794-c39c0755ce22",
+          "commandId": "templater-obsidian:replace-in-file-templater"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "1faf0d64-97fb-4484-811c-05d0eadf1731",
+          "time": 100
+        },
+        {
+          "name": "Folder notes: Create folder note with a new folder for the active note in the current folder",
+          "type": "Obsidian",
+          "id": "ff475309-bbc3-472c-ae35-9b81bf9b66bb",
+          "commandId": "folder-notes:create-folder-note"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "d9a0abc7-71d8-4b27-bfc2-821635d270c0",
+          "time": 100
+        },
+        {
+          "name": "new hausaufgaben folder",
+          "type": "NestedChoice",
+          "id": "35117deb-85cf-4b2e-9aa2-597bc05bb7dc",
+          "choice": {
+            "id": "60093248-4d83-4a26-a603-d90112052d02",
+            "name": "new hausaufgaben folder",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/Hausaufgaben folder.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "Hausaufgaben"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": true,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Folder notes: Create folder note with a new folder for the active note in the current folder",
+          "type": "Obsidian",
+          "id": "ea748649-5b85-4451-bf78-8812a4a6a061",
+          "commandId": "folder-notes:create-folder-note"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "e159b730-9982-4072-a121-6d023ad9436a",
+          "time": 100
+        },
+        {
+          "name": "new wissens folder",
+          "type": "NestedChoice",
+          "id": "5657db4b-67e7-4aa0-9b33-e68a09a22b71",
+          "choice": {
+            "id": "c99dc85d-beb5-4ae5-adb5-d9ef61a4a96c",
+            "name": "new wissens folder",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/Wissen Folder.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "Wissen"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": true,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Folder notes: Create folder note with a new folder for the active note in the current folder",
+          "type": "Obsidian",
+          "id": "78b5398a-e206-4b9a-acbf-a0fa01a85c78",
+          "commandId": "folder-notes:create-folder-note"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "426ee157-9ba0-4b98-bf31-fb8af780a5c5",
+          "time": 500
+        },
+        {
+          "name": "Delete current file",
+          "type": "Obsidian",
+          "id": "8208e3b4-d002-4edd-9212-ba2b61ebb0b4",
+          "commandId": "app:delete-file"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "c10b12b0-9b5f-45f0-b882-5cd209a230fb",
+          "time": 5000
+        },
+        {
+          "name": "Delete current file",
+          "type": "Obsidian",
+          "id": "db784262-7727-4ff2-9e1f-5528889169ce",
+          "commandId": "app:delete-file"
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "1.11.5",
+  "disableOnlineFeatures": true,
+  "enableRibbonIcon": false,
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4-turbo",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o-mini",
+            "maxTokens": 128000
+          }
+        ]
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "note-toolbar@@cg-nt-fab-bg-color-desktop@@light": "#4C99E6",
+  "note-toolbar@@cg-nt-fab-bg-color-desktop@@dark": "#4C99E6",
+  "note-toolbar@@cg-nt-fab-padding-desktop": 30,
+  "note-toolbar@@cg-nt-item-button-bg-color@@dark": "#4C99E6",
+  "note-toolbar@@cg-nt-item-bg-color-hover@@dark": "#4C99E6",
+  "note-toolbar@@cg-nt-item-text-color-hover@@dark": "#000000",
+  "a-unique-id@@cards-rows-before-clip": 10
+}

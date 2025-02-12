@@ -1,0 +1,13 @@
+.callout[data-callout="note-toolbar"] {
+
+  &.my-custom-class {
+    background-color: #4c99e6 !important;
+    color: black !important
+  }
+
+  &.my-other-custom-class {
+    border-radius: 0.5rem;
+    border-color: blue;
+  }
+
+}
