@@ -2,13 +2,14 @@
 typ: Fach
 notetoolbar: Fach
 Professor: 
-Semester: 
-Schlussnote:
+Semester: 1
+Schlussnote: 
+card-cover:
 ---
+
 ```ad-Test
 02.06.2025 - Lineare Gleichungen
 ```
-
 
 ```dataview
 Table without ID file.link as Hausaufgaben,

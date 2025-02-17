@@ -2,7 +2,7 @@
 typ: Fach
 notetoolbar: Fach
 Professor: 
-Semester: 
+Semester: 2
 Schlussnote:
 ---
 

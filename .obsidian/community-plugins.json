@@ -12,13 +12,9 @@
   "calendar",
   "quickadd",
   "colored-text",
-  "buttons",
   "metadata-menu",
   "note-toolbar",
-  "obsidian-meta-bind-plugin",
-  "js-engine",
   "obsidian-admonition",
-  "mousewheel-image-zoom",
   "image-converter",
-  "obsidian-banners"
+  "tabs"
 ]
