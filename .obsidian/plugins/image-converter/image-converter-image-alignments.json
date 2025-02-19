@@ -1,11 +1,5 @@
 {
   "Fächer/Mathe/Mathe.md": {
-    "5c22cd81a7e9650cf8b19d7b1122544a": {
-      "position": "center",
-      "width": "268px",
-      "height": "15px",
-      "wrap": false
-    },
     "3c79d072547808927b422a4f2b4a857a": {
       "position": "center",
       "width": "432px",
@@ -23,6 +17,14 @@
   },
   "Fächer/Technik/Technik.md": {
     "40591d0854290a8350c587b3389b390d": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Fächer/Deutsch/Deutsch.md": {
+    "4c272c1b9acf7e94d9edd10d21438e6d": {
       "position": "center",
       "width": "",
       "height": "",

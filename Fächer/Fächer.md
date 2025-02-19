@@ -10,6 +10,7 @@ tab: Aktuelles Semester
 
 ```dataview
 table
+card-cover,
 OffeneHausaufgaben.text
 
 FROM "Fächer"

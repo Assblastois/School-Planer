@@ -4,7 +4,7 @@ notetoolbar: Fach
 Professor: 
 Semester: 1
 Schlussnote: 
-card-cover:
+card-cover: "![[image.png]]"
 ---
 
 ```ad-Test

@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0532cdcff26edf74",
+            "id": "543a008391337c54",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -21,6 +21,20 @@
               "pinned": true,
               "icon": "lucide-file",
               "title": "Fächer"
+            }
+          },
+          {
+            "id": "06a1b7135d249879",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fächer/Mathe/Wissen/wissen 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "wissen 1"
             }
           }
         ]
@@ -89,6 +103,7 @@
       {
         "id": "c221e4155893e821",
         "type": "tabs",
+        "dimension": 31.29310344827586,
         "children": [
           {
             "id": "c0804af82da8bd01",
@@ -96,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fächer/Mathe/Mathe.md",
+                "file": "2025-02-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Mathe"
+              "title": "Backlinks for 2025-02-26"
             }
           },
           {
@@ -144,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fächer/Mathe/Mathe.md",
+                "file": "Fächer/Fächer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Mathe"
+              "title": "Outline of Fächer"
             }
           },
           {
@@ -162,14 +177,40 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "41ed2977af9c329f",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "3d42d8b3ae7a5463",
+        "type": "tabs",
+        "dimension": 68.70689655172414,
+        "children": [
+          {
+            "id": "95782f0bb0f070bc",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 344.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,50 +221,52 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "0532cdcff26edf74",
+  "active": "95782f0bb0f070bc",
   "lastOpenFiles": [
-    "Fächer/Mathe/Mathe.md",
-    "Fächer/Technik/Wissen/Wärme.md",
-    "Fächer/Technik/Technik.md",
-    "Fächer/Technik/Wissen/Druck.md",
-    "Fächer/Fächer.md",
-    "Fächer/Mathe/Hausaufgaben/2025-02-10.md",
-    "Fächer/Technik/Hausaufgaben/2025-02-13.md",
-    "Fächer/Technik/Hausaufgaben/Hausaufgaben.md",
-    "Fächer/Technik/Wissen/Wissen.md",
-    "Fächer/Technik/Wissen",
-    "Fächer/Technik/Hausaufgaben",
-    "Fächer/Technik",
-    "image.png",
-    "Picture2-1.png",
-    "Pasted image 20250210145055-1.png",
-    "Fächer/Deutsch/Deutsch.md",
-    "Fächer/Mathe 2/Mathe 2.md",
-    "Fächer/Mathe 2/Hausaufgaben/Hausaufgaben.md",
-    "Fächer/Mathe 2/Wissen/Wissen.md",
-    "Fächer/Mathe 2/Wissen",
-    "Fächer/Mathe 2/Hausaufgaben",
-    "Fächer/Mathe 2",
-    "Fächer/Deutsch/Hausaufgaben/Hausaufgaben.md",
-    "Fächer/Deutsch/Hausaufgaben/Wissen/Wissen.md",
-    "Fächer/Deutsch/Hausaufgaben/Wissen",
-    "Fächer/Deutsch/Hausaufgaben",
-    "Fächer/Deutsch",
-    "Fächer/Physik/Physik.md",
-    "Templates/Fachname.md",
+    "Daily Notes/2025-02-10.md",
     "Fächer/Mathe/Wissen/wissen 1.md",
-    "Fächer/Physik/Hausaufgaben/Hausaufgaben.md",
-    "Fächer/Physik/Wissen/Wissen.md",
-    "Fächer/Physik/Wissen",
-    "Fächer/Englisch/Englisch.md",
-    "Fächer/haha/haha.md",
-    "Fächer/hahahahha/hahahahha.md",
-    "Fächer/hahahahha/Hausaufgaben/Hausaufgaben.md",
-    "Fächer/hahahahha/Wissen/Wissen.md",
-    "Fächer/haha/Hausaufgaben/Hausaufgaben.md",
+    "Fächer/Fächer.md",
+    "Fächer/Mathe/Mathe.md",
+    "Fächer/Mathe/Hausaufgaben/2025-02-10.md",
+    "Fächer/hahhaha/Hausaufgaben/Hausaufgaben.md",
+    "Fächer/hahhaha/Wissen/Wissen.md",
+    "Fächer/hahhaha/Wissen",
+    "Fächer/hahhaha/Hausaufgaben",
+    "Fächer/hahhaha/hahhaha.md",
+    "Fächer/hahhaha",
+    "Fächer/hahah/hahah.md",
+    "Fächer/hahah/Hausaufgaben/Hausaufgaben.md",
+    "Fächer/hahah/Wissen/Wissen.md",
+    "Fächer/hahah/Wissen",
+    "Fächer/hahah/Hausaufgaben",
+    "Fächer/hahah",
+    "Fächer/hahha/hahha.md",
+    "Fächer/hahha/Hausaufgaben/Hausaufgaben.md",
+    "Fächer/hahha/Wissen/Wissen.md",
+    "Fächer/hahha/Wissen",
+    "Fächer/hahha/Hausaufgaben",
+    "Fächer/hahha",
+    "Templates/Hausaufgaben folder.md",
+    "Pasted image 20250210145055-1.png",
+    "Picture2-1.png",
+    "image.png",
+    "Templates/Fachname.md",
+    "Fächer/Mathe/Hausaufgaben/HN 2025-02-19 1.md",
+    "Fächer/Mathe/HN 2025-02-19 1.md",
+    "Fächer/Mathe/Hausaufgaben/Hausaufgabe 1 2025-02-19.md",
+    "Fächer/Mathe/Hausaufgabe 1 2025-02-19.md",
+    "Fächer/Mathe/Hausaufgabe 2025-02-19.md",
+    "Fächer/Mathe/Hausaufgaben/Hausaufgabe 2025-02-19.md",
+    "Daily Notes/2025-02-11.md",
+    "Daily Notes/2025-02-21.md",
+    "Daily Notes/2025-02-20.md",
+    "Daily Notes/2025-02-18.md",
+    "Daily Notes",
     "Pasted image 20250210145055.png",
     "Picture1.png",
     "Picture2.png",
