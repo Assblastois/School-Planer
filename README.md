@@ -1,6 +1,8 @@
 # Intorduction / Design philosophy 
 This is my School-Planer. It is a fusion between my setup (mainly Dataview, Quickadd and Templater) and the Day Planner plugin. These two parts work side by side, but are strictly separate. The user will link these two parts together! The goal is to not have to create new notes or folder manually. Everythign is done in the background. Just click on the button (done with Note Toolbar)! Handle everything through clean and visually pleasing Dataview tables instead of clicking through folder structures!
 
+![image](https://github.com/user-attachments/assets/64ab0ac8-ca10-4ef9-bf47-9c54cd876637)
+
 
 ## My part
 This Vault and Work process relies on the Dataview, Quickadd and Templater plugin. Quickadd and Templater together do the heavy lifting, creating a smooth user experience. Note Toolbar creates the Buttons which activate the macros setting up Notes and Folder structures.
@@ -42,7 +44,9 @@ This Structure is kept quite simple as well. Put in the name of whatever you are
 
 It is up to you what and how you want to treat these Knowledge Notes. You can create many small subjects with a high interconnectivity through backlinks, or keep topics broad. 
 
+![image](https://github.com/user-attachments/assets/1cf0c68a-0163-4721-a389-c0a28c298e3a)
 
 ## Day Planner
 I use the Day Planner to plan my day (haha). I always have it open on the side and when getting an assignment I can directly plan when I will do it. I also have a view of what I'll have to to on a given day. The Daily Notes that are created are all thrown into the Daily Notes Folder. The goal here is that you will not have to navigate to the Daily Notes through the folder or even interact with them, but can access them directly through the Day Planner window. All tasks you have (except for the ones mentioned in the Homework Note) are handled in these Daily Notes.
 
+![image](https://github.com/user-attachments/assets/44fc898b-533b-4fae-98b2-59444adf0e69)
