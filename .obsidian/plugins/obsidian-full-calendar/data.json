@@ -1,0 +1,41 @@
+{
+  "calendarSources": [
+    {
+      "type": "local",
+      "color": "#00ffb3",
+      "directory": "Calender/C.Freunde"
+    },
+    {
+      "type": "local",
+      "color": "#ee00ff",
+      "directory": "Calender/C.Geburi"
+    },
+    {
+      "type": "local",
+      "color": "#fff700",
+      "directory": "Calender/C.Hausaufgaben"
+    },
+    {
+      "type": "local",
+      "color": "#49b5d0",
+      "directory": "Calender/C.Sport"
+    },
+    {
+      "type": "local",
+      "color": "#e96a16",
+      "directory": "Calender/C.Termine"
+    },
+    {
+      "type": "local",
+      "color": "#ff0000",
+      "directory": "Calender/C.Tests"
+    }
+  ],
+  "defaultCalendar": 0,
+  "firstDay": 0,
+  "initialView": {
+    "desktop": "timeGridWeek",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": true
+}

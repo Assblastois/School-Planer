@@ -28,18 +28,18 @@
       "id": "5e7af138-8260-47f9-b89f-0406dc44d1ce",
       "commands": [
         {
-          "name": "Call Hausaufgaben Template",
+          "name": "temp",
           "type": "NestedChoice",
           "id": "0446ff8e-b761-4b2c-b211-c585c7d98021",
           "choice": {
             "id": "f6b7204a-a497-4eb7-941e-db5666c4799d",
-            "name": "Call Hausaufgaben Template",
+            "name": "temp",
             "type": "Template",
             "command": false,
             "templatePath": "Templates/Hausaufgaben.md",
             "fileNameFormat": {
               "enabled": true,
-              "format": "HN {{date}} 1"
+              "format": "temp"
             },
             "folder": {
               "enabled": true,
@@ -58,52 +58,6 @@
             "openFileInMode": "default",
             "fileExistsMode": "Increment the file name",
             "setFileExistsBehavior": true
-          }
-        },
-        {
-          "name": "Wait",
-          "type": "Wait",
-          "id": "09fb5de7-0d49-4126-a6a8-0d069716ddbb",
-          "time": 100
-        },
-        {
-          "name": "Mover",
-          "type": "NestedChoice",
-          "id": "6d6a0691-6e57-463f-82f8-962ea80043e0",
-          "choice": {
-            "id": "807fc6f4-64e2-46a8-858c-8bb4a3c0c4fd",
-            "name": "Mover",
-            "type": "Capture",
-            "command": false,
-            "appendLink": false,
-            "captureTo": "",
-            "captureToActiveFile": true,
-            "createFileIfItDoesntExist": {
-              "enabled": false,
-              "createWithTemplate": false,
-              "template": ""
-            },
-            "format": {
-              "enabled": true,
-              "format": "<%* const Fachname = tp.file.folder() %>\n\n<% await tp.file.move(\"/Fächer/\" + Fachname + \"/Hausaufgaben/\" + tp.file.title) %>"
-            },
-            "insertAfter": {
-              "enabled": false,
-              "after": "",
-              "insertAtEnd": false,
-              "considerSubsections": false,
-              "createIfNotFound": false,
-              "createIfNotFoundLocation": "top"
-            },
-            "prepend": true,
-            "task": false,
-            "openFileInNewTab": {
-              "enabled": false,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": false,
-            "openFileInMode": "default"
           }
         }
       ],
@@ -191,6 +145,18 @@
             "openFile": false,
             "openFileInMode": "default"
           }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "f5f22e25-0856-464d-8265-0786de3e0292",
+          "time": 100
+        },
+        {
+          "name": "Templater: Replace templates in the active file",
+          "type": "Obsidian",
+          "id": "d33b2eca-f1b1-4b8e-a616-f20b2cf1cd07",
+          "commandId": "templater-obsidian:replace-in-file-templater"
         }
       ],
       "runOnStartup": false
@@ -378,7 +344,7 @@
   "devMode": false,
   "templateFolderPath": "",
   "announceUpdates": true,
-  "version": "1.11.5",
+  "version": "1.18.1",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": false,
   "ai": {

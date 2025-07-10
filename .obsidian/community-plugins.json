@@ -17,5 +17,12 @@
   "image-converter",
   "tabs",
   "obsidian-reminder-plugin",
-  "obsidian-day-planner"
+  "obsidian-day-planner",
+  "obsidian-latex-suite",
+  "note-definitions",
+  "obsidian-hover-editor",
+  "mousewheel-image-zoom",
+  "buttons",
+  "obsidian-tasks-plugin",
+  "obsidian-full-calendar"
 ]

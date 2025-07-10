@@ -111,6 +111,18 @@ where Semester = 6
 FLATTEN list(flat(file.inlinks.file.tasks)) as AlleHausaufgaben
 FLATTEN list(filter(AlleHausaufgaben, (task) => !task.completed)) as OffeneHausaufgaben
 ```
+tab: Offene Hausaufgaben
+
+```dataview
+table
+Fach as Fach,
+Abgabedatum as Abgabedatum,
+Aufgabe as Aufgabe
+From "Fächer"
+where Abgeschlossen = false
+
+
+```
 
 ````
 

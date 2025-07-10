@@ -1,4 +1,5 @@
 {
+  "debugEnabled": false,
   "emptyViewToolbar": null,
   "export": {
     "includeIcons": true,
@@ -13,9 +14,32 @@
     }
   ],
   "icon": "circle-ellipsis",
+  "keepPropsState": false,
+  "onboarding": {
+    "new-toolbar-mapping": true
+  },
+  "recentFiles": [
+    "Daily Notes/2025-06-17.md",
+    "Fächer/Lineare Algebra/Hausaufgaben/2025-06-16 No. 1.md",
+    "Daily Notes/2025-06-01.md",
+    "Daily Notes/2025-06-16.md",
+    "Fächer/Lineare Algebra/Lineare Algebra.md",
+    "Fächer/Fächer.md",
+    "Fächer/Lineare Algebra/Hausaufgaben/2025-06-13 No. 1.md",
+    "Fächer/Lineare Algebra/Hausaufgaben/2025-06-13 No. 2.md",
+    "Templates/Hausaufgaben.md",
+    "Fächer/Chemie 1/Chemie 1.md"
+  ],
   "ribbonAction": "toolbar",
   "scriptingEnabled": false,
   "showEditInFabMenu": false,
+  "showToolbarIn": {
+    "audio": false,
+    "canvas": false,
+    "image": false,
+    "pdf": false,
+    "video": false
+  },
   "showToolbarInFileMenu": false,
   "toolbarProp": "notetoolbar",
   "toolbars": [
@@ -66,7 +90,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "9ba569b0-fa18-4059-ae34-4b47ad2a580f",
@@ -104,7 +129,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "4186eba8-4654-408c-b8c5-e06b1b8b9e73",
@@ -142,7 +168,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         }
       ],
       "mobileStyles": [],
@@ -164,7 +191,7 @@
           }
         }
       },
-      "updated": "2025-02-10T13:32:24.215Z"
+      "updated": "2025-06-16T08:29:09.331Z"
     },
     {
       "uuid": "c8c9f366-cce1-46c5-b6f5-9b1792b731b6",
@@ -212,7 +239,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         }
       ],
       "mobileStyles": [],
@@ -237,6 +265,6 @@
       "updated": "2025-02-12T08:03:31.545Z"
     }
   ],
-  "version": 20240727.1,
-  "whatsnew_version": 1.18
+  "version": 20250313.1,
+  "whatsnew_version": "1.23"
 }
